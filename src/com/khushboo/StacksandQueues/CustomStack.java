@@ -1,6 +1,4 @@
-package com.khushboo;
-
-import com.khushboo.StackException;
+package com.khushboo.StacksandQueues;
 
 public class CustomStack {
     protected int[] data;

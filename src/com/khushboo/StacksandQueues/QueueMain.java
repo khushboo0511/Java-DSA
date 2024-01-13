@@ -1,4 +1,4 @@
-package com.khushboo;
+package com.khushboo.StacksandQueues;
 
 public class QueueMain {
     public static void main(String[] args) throws Exception {

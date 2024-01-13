@@ -1,4 +1,4 @@
-package com.khushboo;
+package com.khushboo.StacksandQueues;
 
 public class DynamicQueue extends CustomQueue {
     public DynamicQueue() {
