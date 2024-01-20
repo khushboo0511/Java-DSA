@@ -13,11 +13,17 @@ class Main {
 //        tree.populate(nums);
 //        tree.display();
 
-        AVL tree = new AVL();
+//        AVL tree = new AVL();
+//
+//        for (int i=0; i<500; i++) {
+//            tree.insert(i);
+//        }
+//        System.out.println(tree.height());
 
-        for (int i=0; i<500; i++) {
-            tree.insert(i);
-        }
-        System.out.println(tree.height());
+        int[] arr = {3, 8, 6, 7, -2, -8, 4, 9};
+        SegmentTree tree = new SegmentTree(arr);
+        tree.display();
+        tree.update(1, 12);
+
     }
 }
