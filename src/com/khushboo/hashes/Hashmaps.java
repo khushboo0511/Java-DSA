@@ -14,5 +14,14 @@ class Main {
         map.put("Kalpesh", 44);
 
         System.out.println(map.get("Khushuu"));
+
+        HashMapFinal<String, String> map2 = new HashMapFinal<>();
+
+        map2.put("Mango", "King of fruits");
+        map2.put("Apple", "A sweet red fruit");
+        map2.put("Litchi", "Kunal's fav fruit");
+
+        System.out.println(map2);
+
     }
 }
